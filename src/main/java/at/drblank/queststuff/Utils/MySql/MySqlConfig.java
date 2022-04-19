@@ -27,7 +27,7 @@ public class MySqlConfig {
     }
 
     private File getFile() {
-        return new File("plugins/SpigotStuffLobby", "MySQL.yml");
+        return new File("plugins/QuestStuff", "MySQL.yml");
     }
 
     private FileConfiguration getFileConfig() {

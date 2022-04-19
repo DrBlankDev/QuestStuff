@@ -1,5 +1,7 @@
 package at.drblank.queststuff;
 
+import at.drblank.queststuff.Commands.QuestCommand;
+import at.drblank.queststuff.Listeners.QuestGuiListener;
 import at.drblank.queststuff.Utils.MySql.MySql;
 import at.drblank.queststuff.Utils.MySql.MySqlConfig;
 import org.bukkit.Bukkit;
@@ -37,11 +39,12 @@ public final class QuestStuff extends JavaPlugin {
         // Listener registration
 
         PluginManager pm = Bukkit.getPluginManager();
-
+        pm.registerEvents(new QuestGuiListener(), this);
 
         // Command registration
 
-
+        getCommand("quest").setExecutor(new QuestCommand());
+        getCommand("quests").setExecutor(new QuestGuiListener());
 
 
 
