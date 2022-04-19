@@ -1,0 +1,4 @@
+name: QuestStuff
+version: '${project.version}'
+main: at.drblank.queststuff.QuestStuff
+api-version: 1.18
