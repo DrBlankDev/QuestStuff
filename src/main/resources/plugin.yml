@@ -1,4 +1,9 @@
 name: QuestStuff
 version: '${project.version}'
+author: DrBlank
 main: at.drblank.queststuff.QuestStuff
 api-version: 1.18
+
+commands:
+  quest:
+    usage: Error from the plugin SpigotStuff pls contact the admin or blankx33

@@ -1,0 +1,13 @@
+Errors:
+  console: '&4Du kannst diesen Befehl nicht in der Console nutzen!'
+  playernotfound: '&cDer Spieler wurde nicht gefunden oder ist offline'
+  syntax: '&cSyntax: &4/'
+QuestNotifications:
+  prefix: '&5&lQuestSystem &7|'
+  noperm: '&5&lQuestSystem &7| &cDu hast keine Permissions um dies zu nutzen!'
+  questcreatesyntax: 'create <Name> <Material oder Mob> <Belohnung>'
+  questdeletesyntax: 'delete <Name>'
+QuestPermissions:
+  createquest: 'quest.create'
+  deletequest: 'quest.delete'
+  questopen: 'quest.open'
